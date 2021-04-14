@@ -31,12 +31,12 @@ import {fetchAssets} from './src/fetch-assets'
 import {moveAndroidFiles, getPath} from './src/file-system'
 
 
-const ZIP_1 = 'https://drive.google.com/uc?export=download&id=1O3sfKRgvk0MDmqPT2m8eSu3jkOpWbv3p'
-const ZIP_2 = 'https://drive.google.com/uc?export=download&id=1wK0M56DPMgqcKjEuLb_Y1xtqjnonCLwu'
+const ZIP_1 = 'http://8.129.219.4/gachandbook/upload/APP/H5CE6FD7F/1.0.1/www.zip'
+const ZIP_2 = 'http://8.129.219.4/gachandbook/upload/APP/H5CE6FD7F/1.0.1/www2.zip'
 
 const App: FC = () => {
     // .zip file url to load from a host
-    const loadedZipFile = ZIP_1
+    const loadedZipFile = ZIP_2
     // url of the server
     const [url, setUrl] = useState<string | null>(null)
 
